@@ -12,7 +12,7 @@ def run_simulation():
 
     # Run the program with instructions from instruction_input.txt
     simulator.run(input_file)
-    # print(simulator)
+   
 
 
 if __name__ == "__main__":

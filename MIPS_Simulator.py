@@ -187,7 +187,7 @@ class MIPS_Simulator:
       
     #Printing intital state of MIPS Simulator
     def __str__(self):
-        return f"MIPS Simulator:\n registers={self.registers}\n memory={self.memory}\n program counter={self.cpu}"
+        return f"Welcome to the MIPS Simulator!\n MIPS Simulator:\n registers={self.registers}\n memory={self.memory}\n program counter={self.cpu}"
 
 
     
