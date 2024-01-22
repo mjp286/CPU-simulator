@@ -63,7 +63,7 @@ class MIPS_Simulator:
                 self.cache.write_cache(address, result_from_memory)
                 return result_from_memory
         elif code == "WRITE":
-            # Assuming operands contain address and value for write operation
+            #Operands contain address and value for write operation
             self.memory[address] = value
             self.cache.write_cache(address, value)
             print(f"Write to memory and cache: address {address}, value {value}")
@@ -71,7 +71,6 @@ class MIPS_Simulator:
             print("Unknown CACHE operation")
 
     def HALT(self):
-        # Terminate Execution
         print("Execution halted.")
         
     # Methods to execute the instructions      
