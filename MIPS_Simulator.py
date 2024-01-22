@@ -1,5 +1,5 @@
 data_file = "data_input.txt"
-input_file = "instruction_input.txt"
+
 
 from Cache import Cache
 

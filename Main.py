@@ -3,7 +3,6 @@ from MIPS_Simulator import MIPS_Simulator
 from Cache import Cache
 
 def run_simulation():
-    data_file = "data_input.txt"
     input_file = "instruction_input.txt"
 
     # Testing the simulator 
